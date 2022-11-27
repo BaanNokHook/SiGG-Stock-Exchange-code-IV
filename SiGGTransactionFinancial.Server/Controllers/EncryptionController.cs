@@ -1,0 +1,24 @@
+﻿using System.Security.Cryptography;
+using SiGGTransactionFinancial.Common.Encryption;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
+
+namespace SiGGTransactionFinancial.Server.Controllers
+{
+    [ApiController]
+    [Route("[controller]")]
+    public class EncryptionController
+    {
+
+        [AllowAnonymous]
+        [HttpGet("[action]")]
+        public string GenerateAesParameters()
+        {
+            var aes = new AesManaged {KeySize = 256};
+            aes.GenerateKey();
+            aes.GenerateIV();
+            return EncodingHelper.ToSafeUrlBase64(aes.Key) + "\n" + EncodingHelper.ToSafeUrlBase64(aes.IV);
+        }
+
+    }
+}

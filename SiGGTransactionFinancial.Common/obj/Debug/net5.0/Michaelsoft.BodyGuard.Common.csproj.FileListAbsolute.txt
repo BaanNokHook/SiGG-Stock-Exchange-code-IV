@@ -1,0 +1,12 @@
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\bin\Debug\net5.0\SiGGTransactionFinancial.Common.deps.json
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\bin\Debug\net5.0\SiGGTransactionFinancial.Common.dll
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\bin\Debug\net5.0\SiGGTransactionFinancial.Common.pdb
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.csproj.AssemblyReference.cache
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.AssemblyInfoInputs.cache
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.AssemblyInfo.cs
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.csproj.CoreCompileInputs.cache
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.dll
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\refint\SiGGTransactionFinancial.Common.dll
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.pdb
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\net5.0\ref\SiGGTransactionFinancial.Common.dll

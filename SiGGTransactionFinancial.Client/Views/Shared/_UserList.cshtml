@@ -1,0 +1,81 @@
+﻿@using System.Reflection
+@using SiGGTransactionFinancial.Client.Interfaces
+@using SiGGTransactionFinancial.Client.Models.Forms
+@using SiGGTransactionFinancial.Common.Extensions
+@using SiGGTransactionFinancial.Common.Models
+@using SiGGTransactionFinancial.Common.Settings
+@using Microsoft.AspNetCore.Mvc.Localization
+@using Microsoft.Extensions.Options
+@model SiGGTransactionFinancial.Client.Models.Lists.UserList
+@inject IBodyGuardUserApiService BodyGuardUserApiService
+@inject IOptions<CommonSettings> CommonSettings
+@inject IViewLocalizer Localizer
+
+@{
+    List<User> users;
+    try
+    {
+        users = BodyGuardUserApiService.GetUsers().Result;
+    }
+    catch (Exception)
+    {
+        <p class="text-danger">@Localizer["unauthorized"]</p>
+        return;
+    }
+    if (!users.Any())
+    {
+        return;
+    }
+    var identitySettings = CommonSettings.Value.IdentitySettings;
+    var userType = typeof(User);
+    var userDataProperties = userType.GetUpdatableProperties();
+    var enabledUserDataProperties = identitySettings.EnabledUserDataProperties ?? new List<string>();
+    userDataProperties = enabledUserDataProperties.Any() ?
+                             userDataProperties.Where(udp => enabledUserDataProperties.Contains(udp.Name)).ToArray() :
+                             new PropertyInfo[0];
+}
+
+<div class="row mb-3">
+    @foreach (var userData in users)
+    {
+        <div class="col-4 p-2">
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <dt class="d-inline-block">ID:&nbsp;</dt>
+                        <dd class="d-inline-block">@userData.Id</dd>
+                    </div>
+                </div>
+                <div class="card-body">
+                    @foreach (var propertyInfo in userDataProperties)
+                    {
+                        <div>
+                            <dt class="d-inline-block">@Html.DisplayName(Localizer.GetString(propertyInfo.GetDisplayName())):&nbsp;</dt>
+                            <dd class="d-inline-block">@userType.GetProperty(propertyInfo.Name)?.GetValue(userData, null)</dd>
+                        </div>
+                    }
+
+                </div>
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-6">
+                            <a class="btn btn-primary btn-sm btn-block" asp-area="@Model.UpdateArea" asp-page="@Model.UpdatePage" asp-route-id="@userData.Id">@Localizer[Model.UpdateLabel]</a>
+                        </div>
+                        <div class="col-6">
+                            @{
+                                await Html.RenderPartialAsync("_DeleteForm", new DeleteForm
+                                {
+                                    Id = userData.Id,
+                                    SuccessArea = Model.SuccessArea,
+                                    SuccessPage = Model.SuccessPage,
+                                    FailureArea = Model.FailureArea,
+                                    FailurePage = Model.FailurePage
+                                });
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

@@ -1,0 +1,10 @@
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.deps.json
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.AssemblyReference.cache
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.AssemblyInfoInputs.cache
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.AssemblyInfo.cs
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.CoreCompileInputs.cache
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb

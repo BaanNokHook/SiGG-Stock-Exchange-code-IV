@@ -1,0 +1,66 @@
+﻿@page
+@using SiGGTransactionFinancial.Client.Models.Forms
+@using SiGGTransactionFinancial.Client.Models.Lists
+@using SiGGTransactionFinancial.Client.Utilities
+@using SiGGTransactionFinancial.Common.Enums
+@model IndexModel
+
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <legend class="display-4">BodyGuard Authentication Test</legend>
+
+    <partial name="_Message" for="Message"/>
+
+    <div class="site-form-container">
+        @{
+            await Html.RenderPartialAsync(
+                                          "~/Views/Shared/_AuthenticationForm.cshtml",
+                                          new AuthenticationForm
+                                          {
+                                              LoginSuccessArea = "Site",
+                                              LoginSuccessPage = "/Success",
+                                              LoginFailureArea = "Site",
+                                              LoginFailurePage = "/Failure",
+                                              LoginLabel = "login",
+                                              LogoutSuccessArea = "Site",
+                                              LogoutSuccessPage = "/Success",
+                                              LogoutFailureArea = "Site",
+                                              LogoutFailurePage = "/Failure",
+                                              LogoutLabel = "logout",
+                                              UserClaim = AdditionalClaims.FullName,
+                                              UserMessage = "welcome_user",
+                                              RegistrationArea = "Site",
+                                              RegistrationPage = "/Registration",
+                                              RegistrationLabel = "link_register", // to use original label that you can override
+                                              RegistrationEmailArea = "Site",
+                                              RegistrationEmailPage = "/RegistrationEmail",
+                                              RegistrationEmailLabel = "app_confirm_recovery", // to use you resource file
+                                              PasswordRecoveryArea = "Site",
+                                              PasswordRecoveryPage = "/PasswordRecovery",
+                                              PasswordRecoveryLabel = "app_password_recovery" // to use you resource file
+                                          });
+        }
+    </div>
+
+    @if (BodyGuardAuthorizationUtility.AllowRoles("root,admin"))
+    {
+        await Html.RenderPartialAsync(
+                                      "~/Views/Shared/_UserList.cshtml",
+                                      new UserList
+                                      {
+                                          UpdateArea = "Site",
+                                          UpdatePage = "/Update",
+                                          UpdateLabel = "Aggiorna",
+                                          SuccessArea = "Site",
+                                          SuccessPage = "/Index",
+                                          FailureArea = "Site",
+                                          FailurePage = "/Index"
+                                      });
+
+        <a asp-area="Site" asp-page="/ManageRoles">Manage users roles</a>
+    }
+
+</div>

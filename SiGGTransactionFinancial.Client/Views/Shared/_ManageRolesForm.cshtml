@@ -1,0 +1,68 @@
+﻿@using SiGGTransactionFinancial.Client.Interfaces
+@using SiGGTransactionFinancial.Client.Models.Forms
+@using SiGGTransactionFinancial.Common.Extensions
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Mvc.Localization
+@model SiGGTransactionFinancial.Client.Models.Forms.ManageRolesForm
+@inject IHttpContextAccessor Accessor
+@inject IBodyGuardAuthorizationApiService AuthorizationApiService
+@inject IViewLocalizer Localizer
+
+@{
+    var formStatus = TempData.Get<FormStatus>("FormStatus");
+    try
+    {
+        Model.Roles = (await AuthorizationApiService.GetRoles()).Roles;
+    }
+    catch (Exception)
+    {
+        <p class="text-danger">Unauthorized.</p>
+        return;
+    }
+}
+
+<form method="post" asp-area="Authorization" asp-page="/ManageRoles">
+    <div class="role-form">
+        <input type="hidden" asp-for="SuccessArea">
+        <input type="hidden" asp-for="SuccessPage">
+        <input type="hidden" asp-for="FailureArea">
+        <input type="hidden" asp-for="FailurePage">
+        <input type="hidden" asp-for="AssignRoleLabel">
+        <input type="hidden" asp-for="RevokeRoleLabel">
+        <div class="form-group">
+            <div class="bodyguard_form-label">
+                <label asp-for="ManageRoleRequest.EmailAddress"></label>
+            </div>
+            <div class="bodyguard_form-input">
+                <input type="text" class="form-control" asp-for="ManageRoleRequest.EmailAddress" value="@formStatus.GetAttemptedValue("ManageRoleRequest.EmailAddress")"/>
+            </div>
+            <div class="bodyguard_form-error">
+                <span asp-validation-for="ManageRoleRequest.EmailAddress" class="text-danger">@formStatus.GetError("ManageRoleRequest.EmailAddress")</span>
+            </div>
+        </div>
+        <div class="form-group">
+            <div class="bodyguard_form-label">
+                <label asp-for="ManageRoleRequest.Role"></label>
+            </div>
+            <div class="bodyguard_form-input">
+                <select class="form-control" asp-for="ManageRoleRequest.Role" asp-items="Model.Roles" value="@formStatus.GetAttemptedValue("ManageRoleRequest.Role")"></select>
+            </div>
+            <div class="bodyguard_form-error">
+                <span asp-validation-for="ManageRoleRequest.Role" class="text-danger">@formStatus.GetError("ManageRoleRequest.Role")</span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="form-group">
+                    <button type="submit" asp-area="Authorization" asp-page="/ManageRoles" asp-page-handler="Assign" class="btn btn-primary btn-sm btn-block">@Localizer[Model.AssignRoleLabel]</button>
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="form-group">
+                    <button type="submit" asp-area="Authorization" asp-page="/ManageRoles" asp-page-handler="Revoke" class="btn btn-danger btn-sm btn-block">@Localizer[Model.RevokeRoleLabel]</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</form>

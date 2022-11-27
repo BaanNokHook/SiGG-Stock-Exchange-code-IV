@@ -1,0 +1,10 @@
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.deps.json
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.AssemblyReference.cache
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.AssemblyInfoInputs.cache
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.AssemblyInfo.cs
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.CoreCompileInputs.cache
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
+D:\Payment_Gateway\register\SiGGTransactionFinancial-master\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb

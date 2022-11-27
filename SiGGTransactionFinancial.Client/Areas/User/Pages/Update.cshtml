@@ -1,0 +1,18 @@
+﻿@page
+@model SiGGTransactionFinancial.Client.Areas.User.Pages.Update
+@{
+    Layout = "_BodyGuardLayout";
+}
+
+<div class="body-guard_client-form_outer">
+    <div class="body-guard_client-form_middle">
+        <div class="body-guard_client-form_inner">
+            <h1>Update User</h1>
+            <div class="body-guard_client-form_container">
+                @{
+                    await Html.RenderPartialAsync("_UpdateForm", Model.UpdateForm);
+                }
+            </div>
+        </div>
+    </div>
+</div>

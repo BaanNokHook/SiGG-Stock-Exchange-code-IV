@@ -1,0 +1,18 @@
+﻿@page
+@model SiGGTransactionFinancial.Client.Areas.Authentication.Pages.Registration
+@{
+    Layout = "_BodyGuardLayout";
+}
+
+<div class="body-guard_client-form_outer">
+    <div class="body-guard_client-form_middle">
+        <div class="body-guard_client-form_inner">
+            <h1>Registration</h1>
+            <div class="body-guard_client-form_container">
+                @{
+                    await Html.RenderPartialAsync("_RegistrationForm", Model.RegistrationForm);
+                }
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+﻿@page
+@using SiGGTransactionFinancial.Client.Models.Lists
+@model SiGGTransactionFinancial.Client.Areas.User.Pages.List
+@{
+    Layout = "_BodyGuardLayout";
+}
+
+<div class="body-guard_client-form_outer">
+    <div class="body-guard_client-form_middle">
+        <div class="body-guard_client-form_inner">
+            <h1>User List</h1>
+            @{
+                await Html.RenderPartialAsync("_UserList", new UserList());
+            }
+        </div>
+    </div>
+</div>

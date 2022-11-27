@@ -1,0 +1,18 @@
+﻿@page
+@model SiGGTransactionFinancial.Client.Areas.Authentication.Pages.ValidateRecovery
+@{
+    Layout = "_BodyGuardLayout";
+}
+
+<div class="body-guard_client-form_outer">
+    <div class="body-guard_client-form_middle">
+        <div class="body-guard_client-form_inner">
+            <h1>Validate Password Recovery</h1>
+            <div class="body-guard_client-form_container">
+                @{
+                    await Html.RenderPartialAsync("_ValidateRecoveryForm", Model.ValidateRecoveryForm);
+                }
+            </div>
+        </div>
+    </div>
+</div>
