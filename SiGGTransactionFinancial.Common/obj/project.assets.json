@@ -2585,11 +2585,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LaCasaDePapel\\New folder\\SiGGTransactionFinancial\\SiGGTransactionFinancial.Common\\SiGGTransactionFinancial.Common.csproj",
+      "projectUniqueName": "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-IV\\SiGGTransactionFinancial.Common\\SiGGTransactionFinancial.Common.csproj",
       "projectName": "SiGGTransactionFinancial.Common",
-      "projectPath": "D:\\LaCasaDePapel\\New folder\\SiGGTransactionFinancial\\SiGGTransactionFinancial.Common\\SiGGTransactionFinancial.Common.csproj",
+      "projectPath": "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-IV\\SiGGTransactionFinancial.Common\\SiGGTransactionFinancial.Common.csproj",
       "packagesPath": "C:\\Users\\pnaja\\.nuget\\packages\\",
-      "outputPath": "D:\\LaCasaDePapel\\New folder\\SiGGTransactionFinancial\\SiGGTransactionFinancial.Common\\obj\\",
+      "outputPath": "D:\\LaCasaDePapel\\SiGG\\SiGG-Stock-Exchange-code-IV\\SiGGTransactionFinancial.Common\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "configFilePaths": [

@@ -8,3 +8,13 @@ D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Co
 D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.CoreCompileInputs.cache
 D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
 D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.deps.json
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\bin\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.AssemblyReference.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.AssemblyInfoInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.AssemblyInfo.cs
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.csproj.CoreCompileInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\netcoreapp3.1\SiGGTransactionFinancial.Common.pdb

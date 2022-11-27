@@ -10,3 +10,15 @@ D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Co
 D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\net5.0\refint\SiGGTransactionFinancial.Common.dll
 D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.pdb
 D:\LaCasaDePapel\New folder\SiGGTransactionFinancial\SiGGTransactionFinancial.Common\obj\Debug\net5.0\ref\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\bin\Debug\net5.0\SiGGTransactionFinancial.Common.deps.json
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\bin\Debug\net5.0\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\bin\Debug\net5.0\SiGGTransactionFinancial.Common.pdb
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.csproj.AssemblyReference.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.AssemblyInfoInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.AssemblyInfo.cs
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.csproj.CoreCompileInputs.cache
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\refint\SiGGTransactionFinancial.Common.dll
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\SiGGTransactionFinancial.Common.pdb
+D:\LaCasaDePapel\SiGG\SiGG-Stock-Exchange-code-IV\SiGGTransactionFinancial.Common\obj\Debug\net5.0\ref\SiGGTransactionFinancial.Common.dll
